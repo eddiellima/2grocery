@@ -2,6 +2,7 @@
   "expo": {
     "name": "2grocery",
     "slug": "2grocery",
+    "scheme": "schema2grocery",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,13 +23,15 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
     },
     "extra": {
       "eas": {
         "projectId": "d73d73b8-5cbc-4122-bd09-ddf8e17b7247"
       }
     },
-    "owner": "eddielima"
+    "owner": "eddielima",
+    "plugins": ["expo-router"]
   }
 }
