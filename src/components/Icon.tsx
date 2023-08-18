@@ -11,7 +11,7 @@ type IconProps = {
 
 export const Icon = ({
   name,
-  size = 32,
+  size = 28,
   color = "black",
   style
 }: IconProps) => {
